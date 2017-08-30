@@ -118,7 +118,6 @@ background-color: #d8c0a8;
 /* northern11 added this for the footer */
 @media (max-width: 1024px) and (min-width: 320px)
 .footer {
-    padding: 40px 15px !important;
     padding-top: 40px;
     padding-right:15px;
     padding-bottom: 40px;
@@ -146,8 +145,8 @@ background-color: #d8c0a8;
   display: flex;
   -webkit-box-fles: 0;
   flex: 0 1 auto;
-  -webki-box-orient: horizontal;
-  webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
   flex-direction: row;
   flex-wrap: wrap;
 }
