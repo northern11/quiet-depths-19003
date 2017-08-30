@@ -116,15 +116,12 @@ background-color: #d8c0a8;
   color: #f06048
 }
 /* northern11 added this for the footer */
-<<<<<<< HEAD
+
 
 footer {
   color: #f06048;
   background-color: #d8c0a8;
   font-family: sans-serif;
-=======
-@media (max-width: 1024px) and (min-width: 320px)
-.footer {
     padding-top: 40px;
     padding-right:15px;
     padding-bottom: 40px;
@@ -134,8 +131,7 @@ footer {
 .footer {
   color: #b1b1b1;;
   background:#4F5453;
-  font-family: "Montserrat";
->>>>>>> origin/footer-css-work
+  font-family: "Acme";
   font-size: 14px;
   display: block;
   padding-top: 40px;
