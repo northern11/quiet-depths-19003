@@ -3,19 +3,24 @@ import './bootstrap.css'
 import './App.css';
 import Feature from './feature';
 import { SurveyBanner } from './SurveyBanner';
+import {WorkBench} from './workbench'
 import { Nav } from './nav';
 import { Footer } from './footer';
 import {Jumbotron} from './jumbotron'
-import {PropsDisplayer} from './PropsDisplayer'
-
+import { AboutUsSection } from './AboutUs';
 export class App extends React.Component{
+
+
   render() {
     return (
       <div>
-      <PropsDisplayer myProp="Hello" />
+
+
         <Nav />
         <Jumbotron />
-        <SurveyBanner />
+        <SurveyBanner  />
+        <AboutUsSection />
+        <WorkBench />
         <Feature />
         <Footer />
       </div>
