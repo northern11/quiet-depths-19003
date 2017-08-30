@@ -11,7 +11,7 @@ export class Footer extends React.Component {
           <div className="row footer_row">
             <div className="col-lg-6 col-xs-8 col-xs-12 footer__row-description">
               <p className="footer__paragraph footer__paragraph-bold">
-                <strong>BOTNAME IS A NEW KIND OF BOT</strong>
+                <strong>OWL BOT IS A NEW KIND OF BOT</strong>
               </p>
               <p className="footer__paragraph footer__paragraph-description">
                 "Our bot focuses on new ideas to expand new horizons to bring prestige."
@@ -25,28 +25,28 @@ export class Footer extends React.Component {
                 <li>
                   <a href="#" title="Bot @ LinkedIn">
                     <span>
-                      <i className="fa fa-linkedin-square fa-lg" />
+                      <i className="fa fa-linkedin-square fa-2x" />
                     </span>
                   </a>
                 </li>
                 <li>
                   <a href="#" title="Bot @ Facebook">
                     <span>
-                      <i className="fa fa-facebook-square fa-lg" />
+                      <i className="fa fa-facebook-square fa-2x" />
                     </span>
                   </a>
                 </li>
                 <li>
                   <a href="#" title="Bot @ Twitter">
                     <span>
-                      <i className="fa fa-twitter-square fa-lg" />
+                      <i className="fa fa-twitter-square fa-2x" />
                     </span>
                   </a>
                 </li>
                 <li>
                   <a href="/" title="Bot @ Instagram">
                     <span>
-                      <i className="fa fa-instagram fa-lg" />
+                      <i className="fa fa-instagram fa-2x" />
                     </span>
                   </a>
                 </li>
@@ -95,7 +95,7 @@ export class Footer extends React.Component {
                 </div> {/* ./col-lg-4 col-xs-12 */}
               </div> {/* /.row */}
             </div> {/* /.footer___row row-flat */}
-            </div> {/* /.row footer__row */}
+					</div> {/* /.row footer__row */}
         </div> {/* /.container */}
       </footer>
     )}
